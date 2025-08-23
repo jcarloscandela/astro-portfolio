@@ -45,9 +45,6 @@ importers:
         specifier: ^4.1.12
         version: 4.1.12
     devDependencies:
-      '@area44/biome-config':
-        specifier: ^2.2.5
-        version: 2.2.5
       '@biomejs/biome':
         specifier: ^2.2.0
         version: 2.2.0
@@ -75,9 +72,6 @@ packages:
   '@ampproject/remapping@2.3.0':
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
-
-  '@area44/biome-config@2.2.5':
-    resolution: {integrity: sha512-XuidO02XVOl3rt+msTWHBv9ILsS8MgMTNIJbAvldsCQWoxgA1cihZvCnEf5cVwPEJf5xqiyYVsCQzgGOFC2Y6A==}
 
   '@astrojs/compiler@2.12.2':
     resolution: {integrity: sha512-w2zfvhjNCkNMmMMOn5b0J8+OmUaBL1o40ipMvqcG6NRpdC+lKxmTi48DT8Xw0SzJ3AfmeFLB45zXZXtmbsjcgw==}
@@ -2171,8 +2165,6 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.12
       '@jridgewell/trace-mapping': 0.3.29
-
-  '@area44/biome-config@2.2.5': {}
 
   '@astrojs/compiler@2.12.2': {}
 
