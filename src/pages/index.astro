@@ -1,0 +1,33 @@
+---
+import { buttonVariants } from "@/components/ui/button";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import LatestPosts from "@/components/LatestPosts.astro";
+import { SiteConfig } from "@/content/config";
+---
+
+<BaseLayout
+  title={SiteConfig.siteTitle}
+  description={SiteConfig.siteDescription}
+>
+  <section class="container px-4 mx-auto py-8">
+    <div class="flex flex-col items-start gap-4 mb-8">
+      <h1 class="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
+        Juan Carlos Candela Bordera
+      </h1>
+      <p class="text-lg text-muted-foreground">
+        Computer Engineer & Software Developer based in Barcelona. Passionate about efficient, maintainable code and modern web technologies. 7+ years of experience in full-stack development (.NET Core, Angular), Azure cloud, and AI/ML. Skilled in refactoring, best practices, and leading collaborative projects. Always learning, exploring Generative AI, and building scalable solutions.
+      </p>
+    </div>
+
+    <LatestPosts />
+
+    <div class="flex justify-center gap-2 mt-8">
+      <a
+        href="/page/1"
+        class={buttonVariants({ variant: "outline" })}
+      >
+        More posts
+      </a>
+    </div>
+  </section>
+</BaseLayout>
