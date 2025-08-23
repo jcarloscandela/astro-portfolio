@@ -29,6 +29,47 @@ Open your browser and go to [http://localhost:4321](http://localhost:4321) to se
 - Fast and efficient with Astro
 - Accessible and themeable design
 
+## Deployment
+
+This template comes pre-configured for deployment on **Vercel**, **Netlify**, and **GitHub Pages**.
+
+### Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fjcarloscandela%2Fastro-shadcn-ui-template)
+
+1. Click the "Deploy with Vercel" button above
+2. Connect your GitHub account
+3. Select your repository
+4. Vercel will automatically detect the Astro configuration and deploy your site
+
+### Deploy to Netlify
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https%3A%2F%2Fgithub.com%2Fjcarloscandela%2Fastro-shadcn-ui-template)
+
+1. Click the "Deploy to Netlify" button above
+2. Connect your GitHub account
+3. Select your repository
+4. Netlify will automatically detect the Astro configuration and deploy your site
+
+### Deploy to GitHub Pages
+
+This template includes a GitHub Actions workflow that automatically deploys your site to GitHub Pages when you push to the main branch.
+
+1. Enable GitHub Pages in your repository settings:
+   - Go to your repository on GitHub
+   - Click on "Settings" → "Pages"
+   - Under "Build and deployment", select "GitHub Actions" as the source
+
+2. Push your code to the main branch:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+3. The GitHub Actions workflow will automatically build and deploy your site
+4. Your site will be available at: `https://[your-username].github.io/[repository-name]`
+
 ## Adding Components
 
 shadcn/ui provides pre-built, accessible UI components. To add one:
